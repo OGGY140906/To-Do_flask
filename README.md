@@ -22,3 +22,13 @@ Database	SQLite3
 Font	Bungee
 
 Color Theme	Gradient: #928DAB → #1F1C2C
+
+flask-todo-manager/
+│
+├── app.py                # Main Flask app file
+├── todo.db               # SQLite3 database
+│
+├── templates/            # HTML templates (Jinja2)
+│   ├── index.html        # Show all tasks
+│   ├── add.html          # Add new task form
+│   └── update.html       # Edit task form
